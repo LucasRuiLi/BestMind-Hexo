@@ -32,6 +32,7 @@ cd <folder>
 npm install
 ```
 初始化完成后，指定文件夹的目录如下：
+
 	.
 	...._config.yml
 	....package.json
@@ -40,6 +41,7 @@ npm install
 	.  ...._drafts
 	.  ...._posts
 	....themes
+
 ### _config.yml
 网站的 配置 信息，您可以在此配置大部分的参数。
 ### package.json
