@@ -253,5 +253,5 @@ hexo --cwd /path/to/cwd
 
 
 ---
-摘自 [Hexo Docs](https://hexo.io/docs/)
+Reference : [Hexo Docs](https://hexo.io/docs/)
 
