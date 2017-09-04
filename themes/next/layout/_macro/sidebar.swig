@@ -11,7 +11,7 @@
     {% if theme.sidebar.onmobile %}
       <div id="sidebar-dimmer"></div>
     {% endif %}
-    <div class="sidebar-inner" style="padding: 100px 10px">
+    <div class="sidebar-inner" style="padding: 150px 10px">
 
       {% set display_toc = is_post and theme.toc.enable or is_page and theme.toc.enable %}
 

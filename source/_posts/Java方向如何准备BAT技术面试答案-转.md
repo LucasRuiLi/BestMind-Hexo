@@ -186,7 +186,7 @@ Error 类和 Exception 类的父类都是 throwable 类
 * 使用 ExecutorService、Callable、Future 实现有返回结果的多线程。
 
 #### 线程的状态转换
-![ThreadStatusChange.jpg](http://s1.wailian.download/2017/09/02/ThreadStatusChange.jpg)
+![ThreadStatusChange.jpg](https://x3jy9g-sn3302.files.1drv.com/y4m4-uYv-u_zhiQDb78xALmHuNRYk0OxXuJOc3riCT-NAmiFXfdFhuFKhhtLkXz6YIB3zps69kQQXCC-YXpRarY8v_fpheUC5G-P1VDOC7RWWZlfFlTdlaMNXZJO4GXzBlQTa68gkgJgb4tzFGgcOkrrvbOb4R-eTMwEV2G0D54PnsLh8Rn8S1E77h-_VbaA98UHCNHtNZaYG3sVSy0aHyo1A?width=730&height=496&cropmode=none)
 
 #### 如何停止一个线程
 参考文章：
@@ -278,7 +278,7 @@ Lock 能完成 synchronized 所实现的所有功能
 	第一个条件的限制使volatile变量不能用作线程安全计数器。虽然增量操作（x++）看上去类似一个单独操作，实际上它是一个由读取－修改－写入操作序列组成的组合操作，必须以原子方式执行，而volatile不能提供必须的原子特性。实现正确的操作需要使x 的值在操作期间保持不变，而volatile变量无法实现这点。
 
 	每一个线程运行时都有一个线程栈，线程栈保存了线程运行时候变量值信息。当线程访问某一个对象时候值的时候，首先通过对象的引用找到对应在堆内存的变量的值，然后把堆内存变量的具体值load到线程本地内存中，建立一个变量副本，之后线程就不再和对象在堆内存变量值有任何关系，而是直接修改副本变量的值，在修改完之后的某一个时刻（线程退出之前），自动把线程变量副本的值回写到对象在堆中变量。这样在堆中的对象的值就产生变化了。
-	![JavaVolatile.jpg](http://s1.wailian.download/2017/09/02/JavaVolatile.jpg)
+	![JavaVolatile.jpg](https://vhjy9g-sn3302.files.1drv.com/y4m41N3ZJMP9CpUCUC917g7d9lx2NMZTo6pnoZd_1oYt4y4kAotSYYMvJzQkCsykcj0cDaMZ68qlWruAqW2vjt31KuIbiBLaI8jDTUKJYtzEK2aQ7QrFK6G-JwK8wFxOsCBnVnNVQpeY8duYIG89rgro3jYggBlpr5tc8Gb3heb0ePMI6nbF0QK4u-U9D1j6ZIuw2--PDWzaIRd0K8z3Qia1g?width=577&height=555&cropmode=none)
 	read and load 从主存复制变量到当前工作内存
 	use and assign 执行代码，改变共享变量值
 	store and write 用工作内存数据刷新主存相关内容
