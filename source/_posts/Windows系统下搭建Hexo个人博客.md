@@ -1,7 +1,6 @@
 ---
 title: Windows系统下搭建Hexo个人博客
 date: 2017/8/27 1:33:48
-updated: 
 categories: 
 - Hexo
 tags:
