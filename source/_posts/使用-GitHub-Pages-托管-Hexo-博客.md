@@ -9,7 +9,7 @@ date: 2017-09-05 23:14:48
 ---
 ## 前提
 ### 搭建好的 Hexo 本地博客
-还没有搭建好的童鞋,请看 [Windows系统下搭建Hexo个人博客](/post/Windows系统下搭建Hexo个人博客/)
+还没有搭建好的童鞋,请看 [Windows系统下搭建Hexo个人博客](/posts/Windows系统下搭建Hexo个人博客/)
 ### GitHub 账号
 还没有注册的童鞋,请到 [GitHub](https://github.com/) 注册
 
@@ -82,6 +82,7 @@ date: 2017-09-05 23:14:48
 有两种方法
 * 放到 username.github.io 仓库下
 * 放到其他仓库下( 当然是你自己建的仓库,仓库名根据自己的喜好取 )
+
 ### username.github.io
 * 在你自己的 username.github.io 下新建 Branch (分支),分支名自取,例: hexo
 * 初始化 git
