@@ -1,18 +1,21 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+## 博客名
 title: Best Mind
 subtitle:
-description: Xiao Weicheng's Mind
-author: Xiao Weicheng
+## 博客简介
+description: 持之以恒的学习是设计的来源，责任感是设计的原则，而灵感是设计的升华
+## 博客作者
+author: Lucas Rui
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://bestmind.space
+url: http://babyonly.me
 root: /
 permalink: posts/:title/
 permalink_defaults:
@@ -82,7 +85,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/XiaoWeicheng/xiaoweicheng.github.io.git
+  repo: https://github.com/LucasRuiLi/LucasRuiLi.github.io.git
   branch: master
   message: Site updated at {{ now('YYYY-MM-DD HH:mm:ss') }}
 
