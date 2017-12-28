@@ -1,12 +1,12 @@
-# ---------------------------------------------------------------
+﻿# ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
 
 # Head info
 head:
-    favicon: "/img/logo_miccall.png"
-    high_res_favicon: "/img/logo_miccall.png"
-    apple_touch_icon: "/img/logo_miccall.png"
+    favicon: "/img/favicon.ico"
+    high_res_favicon: "/img/favicon.ico"
+    apple_touch_icon: "/img/favicon.ico"
     keywords: RELY
 
 Intro:

@@ -7,6 +7,7 @@ tags:
   - 服饰
   - 合集
 date: 2017-5-27 18:36:20
+thumbnail: http://f.hiphotos.baidu.com/image/pic/item/377adab44aed2e73ee9311e68e01a18b86d6fa86.jpg
 ---
 <image src="http://wx2.sinaimg.cn/large/005YECPzly1flmkz012ncj30ol079agb.jpg" />
 
