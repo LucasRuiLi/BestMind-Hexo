@@ -7,5 +7,6 @@ tags:
   - 车载APP
   - 商务
 date: 2016-8-05 22:26:57
+thumbnail: http://r.photo.store.qq.com/psb?/V10CtAFu2lHwCf/NKO86h2PbetsGE4tVo9jmgARDiXiGdPnQ7Zwx*cDqyI!/r/dPMAAAAAAAAA
 ---
-<image src="http://wx2.sinaimg.cn/large/005YECPzly1flml4y6b0oj30ku464e81.jpg" />
+<image style="margin:auto" src="http://wx2.sinaimg.cn/large/005YECPzly1flml4y6b0oj30ku464e81.jpg" />

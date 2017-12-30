@@ -1,5 +1,4 @@
 //org.eclipse.ui.commands/state/com.pandora.ui.lineNumberToggle/org.eclipse.ui.commands.toggleState=true
-//org.eclipse.ui.commands/state/com.pandora.ui.toggleShowIndentGuide/org.eclipse.ui.commands.toggleState=false
 ACTIVE_HYPERLINK_COLOR=13,17,113
 HYPERLINK_COLOR=13,17,113
 com.vectrace.mercurialeclipse.ui.colorsandfonts.IgnoredBackgroundColor=255,250,232

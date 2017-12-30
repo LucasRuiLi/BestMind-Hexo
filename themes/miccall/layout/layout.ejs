@@ -10,6 +10,7 @@
 			<%- partial('_partial/head', {}, {cache: true}) %>
 			<%- partial('_partial/importJS', {}, {cache: true}) %>
 	<% } %>
+
 </head>
     <% if(page.layout === 'gallery') { %>
         <!-- Single Gallery Page -->
@@ -18,4 +19,5 @@
     <% } else { %>
 		<%- body %>
  	<% } %>
+
 </html>
