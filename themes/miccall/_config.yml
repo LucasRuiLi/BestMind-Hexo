@@ -35,7 +35,7 @@ Nav:
             link:
     pages:
         标签:
-            link: "/tag/"
+            link: "/tags/"
         #自定义标签名
         #   link：“路径”
 
