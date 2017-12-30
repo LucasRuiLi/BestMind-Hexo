@@ -1,1 +1,0 @@
-# BestMind.Space Source Files
