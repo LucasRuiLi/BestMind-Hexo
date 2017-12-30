@@ -46,6 +46,9 @@
 		z-index: 1;
 		overflow: hidden;
 	}
+		#wrapper .bg{
+			display: none;
+		}
 
 		#wrapper.fade-in:before {
 			-moz-pointer-events: none;
