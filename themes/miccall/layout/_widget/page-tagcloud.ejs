@@ -20,17 +20,20 @@
         <%- partial('_partial/nav') %>
         <%- partial('_partial/mainfirst') %>
 
-        <section class="special">
+        <section class="special" style="width:50rem;margin:0 auto">
                             <div class="row" style="border-bottom: none;">
 
-        <%- tagcloud({
-            min_font: 16,
-            max_font: 17,
-            amount: 9999,
-            color: false,
-            start_color: '#757575',
-            end_color: '#212121',
-        }) %>
+        <% if (site.tags.length) { %>
+			<script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+			<script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+			<div class="widget-wrap" style="margin:0 auto">
+				<div id="myCanvasContainer" class="widget tagcloud" style="margin:0 auto">
+					<canvas width="720" height="500" id="resCanvas" style="width=100%">
+						<%- tagcloud() %>
+					</canvas>
+				</div>
+			</div>
+		<% } %>
 
                             </div>
                     
