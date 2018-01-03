@@ -85,8 +85,9 @@ theme: miccall
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:LucasRuiLi/LucasRuiLi.github.io.git
-  branch: master
+  repo: 
+    github: git@github.com:LucasRuiLi/LucasRuiLi.github.io.git,master
+    coding: git@git.coding.net:XiaoWeicheng/relyxu.xyz.git,master
   message: Site updated at {{ now('YYYY-MM-DD HH:mm:ss') }}
 
 #sitemap
